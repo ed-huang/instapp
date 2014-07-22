@@ -103,7 +103,7 @@
       
         
         
-        <div class="inputCtrl container-fluid" ng-controller="inputCtrl ">
+        <div class="inputCtrl container-fluid" ng-controller="inputCtrl" ng-cloak>
           <div class="row">
             <img src="images/ng-instagram.png"/>
           </div>
@@ -113,7 +113,7 @@
               <input type="submit" class="btn-lg btn-primary">
             </form>
           </div>
-          <div class="row" ng-cloak><h1>{{message}}</h1></div>
+          <div class="row"><h1>{{message}}</h1></div>
           <div class="results row">
             <ul class="clearfix">
               <li class="col-xs-12 col-sm-4 col-md-3 repeat-item" ng-repeat="result in results">
